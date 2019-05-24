@@ -21,11 +21,9 @@ public class Todo {
     private String title;
 
     @NotNull
-    @Size(min=3, max=15)
     private String duedate;
 
-    @NotNull
-    @Max(150)
+    @Size( max = 150)
     private String content;
 
     public long getId() {
